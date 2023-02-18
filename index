@@ -1,19 +1,31 @@
 <html>
   <head>
-    <!-- Durpy pugs world/title in the menu in banter -->
-    <meta property="og:title" content="Space title">
-    <meta property="og:description" content="Love this space!">
-    <!-- Make the image square, a good size is 250px by 250px -->
-    <meta property="og:image" content="https://logo.clearbit.com/sidequestvr.com">
     
-    <!-- AFRAME script -->
+    <meta property="og:title" content="durpy pugs world">
+    <meta property="og:description" content="Love this space!">
+    <meta property="og:image" content="https://logo.clearbit.com/sidequestvr.com">
+     <meta property="og:title" content="Importing GLTF/GLB files">
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      
+       <a-assets>
+         
+    <a-asset-item id="durpy pug" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/durpy%20pug%202.glb?v=1676692110578"></a-asset-item>
+  
+      </a-assets>
+      
+  <!-- Basic plane. -->
+      
+  <a-plane src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/Vol_42_1_Base_Color.png?v=1676690627521" repeat="15 15 15" height="20" rotation="-90 0 0" position="0 0 0" width="20" sq-nonconvexcollider="recursive: true"></a-plane>
+    
+
+ <!-- durpy pug -->
+  
+ <a-entity gltf-model="#durpy pug" position="0 0 6" scale="0.2 0.2 0.2" sq-nonconvexcollider="recursive: true" ></a-entity>
+
+      
     </a-scene>
   </body>
+</html>
