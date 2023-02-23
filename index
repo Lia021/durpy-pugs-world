@@ -13,6 +13,9 @@
        <a-assets>
          
     <a-asset-item id="durpy pug" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/durpy%20pug%202.glb?v=1676692110578"></a-asset-item>
+    <a-asset-item id="rock" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/rock%20path%202.glb?v=1676699839649"></a-asset-item>
+    <a-asset-item id="fancy pug" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/fancy%20pug.glb?v=1676784121957"></a-asset-item>
+  
   
       </a-assets>
       
@@ -24,7 +27,39 @@
  <!-- durpy pug -->
   
  <a-entity gltf-model="#durpy pug" position="0 0 6" scale="0.2 0.2 0.2" sq-nonconvexcollider="recursive: true" ></a-entity>
-
+      
+      <!-- fancy pug -->
+  
+ <a-entity gltf-model="#fancy pug" position="0 0 -6" scale="0.2 0.2 0.2" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+<!-- rock path -->
+  
+ <a-entity gltf-model="#rock" position="0 0 0" scale="0.2 0.2 0.2" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+<!--pug-->
+  <a-entity id="dance pug" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/test%20animation.glb?v=1676776199136" animation-mixer
+   position="0 0 1" scale="0.2 0.2 0.2"
+      ></a-entity>
+      
+      <!--fance pug-->
+      
+  <a-entity id=" fancy pug " gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/fancy%20pug%20animted.glb?v=1676784742458" animation-mixer
+   position="0 0 -1" scale="0.2 0.2 0.2"
+    ></a-entity>
+      
+      <!--space pug-->
+      
+  <a-entity id=" space pug " gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/space%20pug.glb?v=1677133493161" animation-mixer
+   position="0 1 -1" scale="0.2 0.2 0.2"
+    ></a-entity>
+  
+      <!--sky-->
+      
+    <a-sky src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/skybox%20(4).jpg?v=1677035760110"></a-sky>
+      
+     <!--sphere-->
+      
+    <a-sphere material="side: double; color: #FFFFFF; transparent: true; opacity: 0.1"  position="0 1.47 -1" radius="0.23"></a-sphere>
       
     </a-scene>
   </body>
