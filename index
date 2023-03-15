@@ -6,22 +6,30 @@
     <meta property="og:image" content="https://logo.clearbit.com/sidequestvr.com">
      <meta property="og:title" content="Importing GLTF/GLB files">
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
   </head>
   <body>
     <a-scene>
+    
+      
       
        <a-assets>
          
     <a-asset-item id="durpy pug" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/durpy%20pug%202.glb?v=1676692110578"></a-asset-item>
     <a-asset-item id="rock" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/rock%20path%202.glb?v=1676699839649"></a-asset-item>
-    <a-asset-item id="fancy pug" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/fancy%20pug.glb?v=1676784121957"></a-asset-item>
+    <a-asset-item id="grasstest" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/grass%20edit.glb?v=1678327764723"></a-asset-item>
+    <a-asset-item id="snowground" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/snow%20ground2.glb?v=1678895263720"></a-asset-item>
+    <a-asset-item id="fence" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/fence%204.glb?v=1678886822697"></a-asset-item>
+    <a-asset-item id="igloo" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/igloo.glb?v=1678899423925"></a-asset-item>
   
   
       </a-assets>
+    
       
   <!-- Basic plane. -->
       
-  <a-plane src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/Vol_42_1_Base_Color.png?v=1676690627521" repeat="15 15 15" height="20" rotation="-90 0 0" position="0 0 0" width="20" sq-nonconvexcollider="recursive: true"></a-plane>
+  <a-plane src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/grass%203.png?v=1678328469156" repeat="16 16 16" height="18" rotation="-90 0 0" position="0 0 0" width="18" sq-nonconvexcollider="recursive: true"></a-plane>
     
 
  <!-- durpy pug -->
@@ -50,16 +58,41 @@
       <!--space pug-->
       
   <a-entity id=" space pug " gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/space%20pug.glb?v=1677133493161" animation-mixer
-   position="0 1 -1" scale="0.2 0.2 0.2"
+   position="-9 1.60 -1" scale="0.2 0.2 0.2"
     ></a-entity>
   
-      <!--sky-->
-      
-    <a-sky src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/skybox%20(4).jpg?v=1677035760110"></a-sky>
+
       
      <!--sphere-->
       
-    <a-sphere material="side: double; color: #FFFFFF; transparent: true; opacity: 0.1"  position="0 1.47 -1" radius="0.23"></a-sphere>
+    <a-sphere material="side: double; color: #FFFFFF; transparent: true; opacity: 0.1"  position="-9 2 -1" radius="0.23"></a-sphere>
+      
+        <!--platform-->
+      
+  <a-entity id="platform" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/platform%20(4).glb?v=1677256198570" animation-mixer
+   position="-9 1 -1" scale="0.2 0.2 0.2"
+    ></a-entity>
+      
+           <!-- grass -->
+  
+ <a-entity gltf-model="#grasstest" position="0 0 0" scale="0.6 0.6 0.6"  ></a-entity>
+
+          <!-- snow ground -->
+  
+ <a-entity gltf-model="#snowground" position="18 -0.5 0" scale="9 9 9" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+          <!-- fence -->
+  
+ <a-entity gltf-model="#fence" position="8.95 0 0" scale="0.6 0.6 0.6"  ></a-entity>
+      
+          <!-- Igloo -->
+  
+ <a-entity gltf-model="#igloo" position="22 0.20 -4" rotation="0 198 0" scale="4 4 4" sq-nonconvexcollider="recursive: true" ></a-entity>
+     
+      <!--sky-->
+      
+<a-sky src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/skybox%20(3).jpg?v=1677034427492" ></a-sky>      
+  
       
     </a-scene>
   </body>
