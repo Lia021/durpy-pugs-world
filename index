@@ -1,4 +1,4 @@
-<html>
+b<html>
   <head>
     
     <meta property="og:title" content="durpy pugs world">
@@ -22,6 +22,10 @@
     <a-asset-item id="snowground" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/snow%20ground2.glb?v=1678895263720"></a-asset-item>
     <a-asset-item id="fence" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/fence%204.glb?v=1678886822697"></a-asset-item>
     <a-asset-item id="igloo" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/igloo.glb?v=1678899423925"></a-asset-item>
+    <a-asset-item id="bridge" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/bridge.glb?v=1678924546510"></a-asset-item>
+    <a-asset-item id="winter pug" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/winter%20pug2.glb?v=1678941969599"></a-asset-item>
+    <a-asset-item id="winter pug pink" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/winter%20pug3.glb?v=1678942794542"></a-asset-item>
+    <a-asset-item id="winter pug green" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/winter%20pug%20green.glb?v=1678943407562"></a-asset-item>
   
   
       </a-assets>
@@ -34,43 +38,61 @@
 
  <!-- durpy pug -->
   
- <a-entity gltf-model="#durpy pug" position="0 0 6" scale="0.2 0.2 0.2" sq-nonconvexcollider="recursive: true" ></a-entity>
+ <a-entity gltf-model="#durpy pug"  position="8.95 1.2 9" scale="0.2 0.2 0.2" rotation="0 155 0" sq-nonconvexcollider="recursive: true" ></a-entity>
       
-      <!-- fancy pug -->
-  
- <a-entity gltf-model="#fancy pug" position="0 0 -6" scale="0.2 0.2 0.2" sq-nonconvexcollider="recursive: true" ></a-entity>
-      
-<!-- rock path -->
-  
- <a-entity gltf-model="#rock" position="0 0 0" scale="0.2 0.2 0.2" sq-nonconvexcollider="recursive: true" ></a-entity>
-      
+       
 <!--pug-->
+      
   <a-entity id="dance pug" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/test%20animation.glb?v=1676776199136" animation-mixer
-   position="0 0 1" scale="0.2 0.2 0.2"
+   position="0 0 -1" scale="0.2 0.2 0.2"
       ></a-entity>
       
-      <!--fance pug-->
+      <!--pug 2-->
+      
+  <a-entity id="dance pug 2" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/test%20animation.glb?v=1676776199136" animation-mixer
+   position="0 0 5" scale="0.2 0.2 0.2"
+      ></a-entity>
+      
+        <!--pug 3-->
+      
+  <a-entity id="dance pug 3" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/test%20animation.glb?v=1676776199136" animation-mixer
+   position="6 0 5" scale="0.2 0.2 0.2" rotation="0 155 0"
+      ></a-entity>
+      
+       <!--pug 4-->
+      
+  <a-entity id="dance pug 4" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/test%20animation.glb?v=1676776199136" animation-mixer
+   position="-6 0 5" scale="0.2 0.2 0.2" rotation="0 50 0"
+      ></a-entity>
+      
+      <!--pug 5-->
+      
+  <a-entity id="dance pug 5" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/test%20animation.glb?v=1676776199136" animation-mixer
+   position="6 0 -5" scale="0.2 0.2 0.2" rotation="0 -155 0"
+      ></a-entity>
+      
+      <!--fancy pug-->
       
   <a-entity id=" fancy pug " gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/fancy%20pug%20animted.glb?v=1676784742458" animation-mixer
-   position="0 0 -1" scale="0.2 0.2 0.2"
+   position="-8.90 1.2 -9" scale="0.2 0.2 0.2" rotation="0 -50 0"
     ></a-entity>
       
       <!--space pug-->
       
   <a-entity id=" space pug " gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/space%20pug.glb?v=1677133493161" animation-mixer
-   position="-9 1.60 -1" scale="0.2 0.2 0.2"
+   position="-10 1.60 -1" scale="0.2 0.2 0.2"
     ></a-entity>
   
 
       
      <!--sphere-->
       
-    <a-sphere material="side: double; color: #FFFFFF; transparent: true; opacity: 0.1"  position="-9 2 -1" radius="0.23"></a-sphere>
+    <a-sphere material="side: double; color: #FFFFFF; transparent: true; opacity: 0.1"  position="-10 2 -1" radius="0.23"></a-sphere>
       
         <!--platform-->
       
   <a-entity id="platform" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/platform%20(4).glb?v=1677256198570" animation-mixer
-   position="-9 1 -1" scale="0.2 0.2 0.2"
+   position="-10 1 -1" scale="0.2 0.2 0.2"
     ></a-entity>
       
            <!-- grass -->
@@ -79,15 +101,61 @@
 
           <!-- snow ground -->
   
- <a-entity gltf-model="#snowground" position="18 -0.5 0" scale="9 9 9" sq-nonconvexcollider="recursive: true" ></a-entity>
+ <a-entity gltf-model="#snowground" position="22 -0.5 0" scale="9 9 9" sq-nonconvexcollider="recursive: true" ></a-entity>
       
           <!-- fence -->
   
- <a-entity gltf-model="#fence" position="8.95 0 0" scale="0.6 0.6 0.6"  ></a-entity>
+ <a-entity gltf-model="#fence" position="8.95 0 0" scale="0.6 0.6 0.6" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+      <!-- fence 2 -->
+  
+ <a-entity gltf-model="#fence" position="-8.95 0 0" scale="0.6 0.6 0.6" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+      <!-- fence 3 -->
+  
+ <a-entity gltf-model="#fence" position="0 0 -9" scale="0.6 0.6 0.6" rotation="0 90 0" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+          <!-- fence 4 -->
+  
+ <a-entity gltf-model="#fence" position="0 0 9" scale="0.6 0.6 0.6" rotation="0 90 0" sq-nonconvexcollider="recursive: true" ></a-entity>
       
           <!-- Igloo -->
   
- <a-entity gltf-model="#igloo" position="22 0.20 -4" rotation="0 198 0" scale="4 4 4" sq-nonconvexcollider="recursive: true" ></a-entity>
+ <a-entity gltf-model="#igloo" position="25 0.20 -4" rotation="0 198 0" scale="4 4 4" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+             <!-- winter pug -->
+  
+ <a-entity gltf-model="#winter pug" position="25 0.50 3" rotation="0 198 0" scale="0.50 0.50 0.50"  ></a-entity>
+      
+      <!-- winter pug green -->
+  
+ <a-entity gltf-model="#winter pug green" position="20 0.50 5" rotation="0 198 0" scale="0.50 0.50 0.50"  ></a-entity>
+      
+         <!-- winter pug pink -->
+  
+ <a-entity gltf-model="#winter pug pink" position="17 0.50 2" rotation="0 198 0" scale="0.50 0.50 0.50"  ></a-entity>
+      
+      <!--peguin-->
+      
+  <a-entity id="peguin" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/pegquin.glb?v=1678935655019" animation-mixer
+   position="25 0.50 -4" scale="0.50 0.50 0.50" rotation="0 98 0"
+    ></a-entity>
+      
+      <!--peguin 2-->
+      
+  <a-entity id="peguin 2" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/pegquin.glb?v=1678935655019" animation-mixer
+   position="19 0.35 -4" scale="0.50 0.50 0.50" rotation="0 98 0"
+    ></a-entity>
+      
+      <!--peguin 3-->
+      
+  <a-entity id="peguin 3" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/pegquin.glb?v=1678935655019" animation-mixer
+   position="22 0.35 0" scale="0.50 0.50 0.50" rotation="0 98 0"
+    ></a-entity>
+      
+         <!-- bridge-->
+  
+ <a-entity gltf-model="#bridge" position="11.04 0 0" rotation="0 90 0" scale="1 0.5 0.51" sq-nonconvexcollider="recursive: true" ></a-entity>
      
       <!--sky-->
       
