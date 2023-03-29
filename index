@@ -3,7 +3,7 @@ b<html>
     
     <meta property="og:title" content="durpy pugs world">
     <meta property="og:description" content="Love this space!">
-    <meta property="og:image" content="https://logo.clearbit.com/sidequestvr.com">
+    <meta property="og:image" content="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/pugs.png?v=1679891953216">
      <meta property="og:title" content="Importing GLTF/GLB files">
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
      <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
@@ -17,17 +17,23 @@ b<html>
        <a-assets>
          
     <a-asset-item id="durpy pug" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/durpy%20pug%202.glb?v=1676692110578"></a-asset-item>
-    <a-asset-item id="rock" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/rock%20path%202.glb?v=1676699839649"></a-asset-item>
-    <a-asset-item id="grasstest" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/grass%20edit.glb?v=1678327764723"></a-asset-item>
-    <a-asset-item id="snowground" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/snow%20ground2.glb?v=1678895263720"></a-asset-item>
     <a-asset-item id="fence" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/fence%204.glb?v=1678886822697"></a-asset-item>
+    <a-asset-item id="snowground" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/snow%20ground2.glb?v=1678895263720"></a-asset-item>
     <a-asset-item id="igloo" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/igloo.glb?v=1678899423925"></a-asset-item>
     <a-asset-item id="bridge" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/bridge.glb?v=1678924546510"></a-asset-item>
+    <a-asset-item id="grasstest" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/grass%20edit.glb?v=1678327764723"></a-asset-item>
     <a-asset-item id="winter pug" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/winter%20pug2.glb?v=1678941969599"></a-asset-item>
     <a-asset-item id="winter pug pink" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/winter%20pug3.glb?v=1678942794542"></a-asset-item>
     <a-asset-item id="winter pug green" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/winter%20pug%20green.glb?v=1678943407562"></a-asset-item>
+    <a-asset-item id="sand ground" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/sand%20groumd.glb?v=1679681979452"></a-asset-item>
+    <a-asset-item id="pyramid" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/pyramid2.glb?v=1679684326432"></a-asset-item>
+    <a-asset-item id="mummy pug" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/mummy%20pug.glb?v=1679716562271"></a-asset-item>
+    <a-asset-item id="catcus" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/catcus.glb?v=1679867720470"></a-asset-item>
+    <a-asset-item id="spaceportal" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/space%20portal.glb?v=1679870882753"></a-asset-item>
+    <a-asset-item id="pug-ship" src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/pug%20ship.glb?v=1679888455865"></a-asset-item>
   
   
+         
       </a-assets>
     
       
@@ -47,6 +53,7 @@ b<html>
    position="0 0 -1" scale="0.2 0.2 0.2"
       ></a-entity>
       
+           
       <!--pug 2-->
       
   <a-entity id="dance pug 2" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/test%20animation.glb?v=1676776199136" animation-mixer
@@ -70,7 +77,7 @@ b<html>
   <a-entity id="dance pug 5" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/test%20animation.glb?v=1676776199136" animation-mixer
    position="6 0 -5" scale="0.2 0.2 0.2" rotation="0 -155 0"
       ></a-entity>
-      
+       
       <!--fancy pug-->
       
   <a-entity id=" fancy pug " gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/fancy%20pug%20animted.glb?v=1676784742458" animation-mixer
@@ -80,30 +87,25 @@ b<html>
       <!--space pug-->
       
   <a-entity id=" space pug " gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/space%20pug.glb?v=1677133493161" animation-mixer
-   position="-10 1.60 -1" scale="0.2 0.2 0.2"
+   position="-34 1.60 -1" scale="0.2 0.2 0.2"
     ></a-entity>
   
-
       
      <!--sphere-->
       
-    <a-sphere material="side: double; color: #FFFFFF; transparent: true; opacity: 0.1"  position="-10 2 -1" radius="0.23"></a-sphere>
+    <a-sphere material="side: double; color: #FFFFFF; transparent: true; opacity: 0.1"  position="-34 2 -1" radius="0.23"></a-sphere>
       
         <!--platform-->
       
   <a-entity id="platform" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/platform%20(4).glb?v=1677256198570" animation-mixer
-   position="-10 1 -1" scale="0.2 0.2 0.2"
+   position="-34 1 -1" scale="0.2 0.2 0.2"
     ></a-entity>
       
-           <!-- grass -->
+    <!-- grass -->
   
- <a-entity gltf-model="#grasstest" position="0 0 0" scale="0.6 0.6 0.6"  ></a-entity>
-
-          <!-- snow ground -->
-  
- <a-entity gltf-model="#snowground" position="22 -0.5 0" scale="9 9 9" sq-nonconvexcollider="recursive: true" ></a-entity>
-      
-          <!-- fence -->
+ <a-entity gltf-model="#grasstest" position="0 0 0" scale="0.6 0.6 0.6"  ></a-entity>    
+    
+   <!-- fence -->
   
  <a-entity gltf-model="#fence" position="8.95 0 0" scale="0.6 0.6 0.6" sq-nonconvexcollider="recursive: true" ></a-entity>
       
@@ -119,48 +121,127 @@ b<html>
   
  <a-entity gltf-model="#fence" position="0 0 9" scale="0.6 0.6 0.6" rotation="0 90 0" sq-nonconvexcollider="recursive: true" ></a-entity>
       
-          <!-- Igloo -->
+      
+    <!-- snow ground -->
+  
+ <a-entity gltf-model="#snowground" position="22 -0.5 0" scale="9 9 9" sq-nonconvexcollider="recursive: true" ></a-entity>
+         
+         <!-- Igloo -->
   
  <a-entity gltf-model="#igloo" position="25 0.20 -4" rotation="0 198 0" scale="4 4 4" sq-nonconvexcollider="recursive: true" ></a-entity>
       
-             <!-- winter pug -->
+      <!-- bridge-->
   
- <a-entity gltf-model="#winter pug" position="25 0.50 3" rotation="0 198 0" scale="0.50 0.50 0.50"  ></a-entity>
+ <a-entity gltf-model="#bridge" position="11.04 0 0" rotation="0 90 0" scale="1 0.5 0.51" sq-nonconvexcollider="recursive: true" ></a-entity>
+     
+               <!-- winter pug -->
+  
+ <a-entity gltf-model="#winter pug" position="25 0.50 3" rotation="0 198 0" scale="0.2 0.2 0.2"  ></a-entity>
       
       <!-- winter pug green -->
   
- <a-entity gltf-model="#winter pug green" position="20 0.50 5" rotation="0 198 0" scale="0.50 0.50 0.50"  ></a-entity>
+ <a-entity gltf-model="#winter pug green" position="20 0.50 5" rotation="0 198 0" scale="0.2 0.2 0.2"  ></a-entity>
       
          <!-- winter pug pink -->
   
- <a-entity gltf-model="#winter pug pink" position="17 0.50 2" rotation="0 198 0" scale="0.50 0.50 0.50"  ></a-entity>
+ <a-entity gltf-model="#winter pug pink" position="17 0.50 2" rotation="0 198 0" scale="0.2 0.2 0.2"  ></a-entity>
       
-      <!--peguin-->
+        <!--peguin-->
       
   <a-entity id="peguin" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/pegquin.glb?v=1678935655019" animation-mixer
-   position="25 0.50 -4" scale="0.50 0.50 0.50" rotation="0 98 0"
+   position="25 0.37 -4" scale="0.2 0.2 0.2" rotation="0 98 0"
     ></a-entity>
       
       <!--peguin 2-->
       
   <a-entity id="peguin 2" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/pegquin.glb?v=1678935655019" animation-mixer
-   position="19 0.35 -4" scale="0.50 0.50 0.50" rotation="0 98 0"
+   position="19 0.37 -4" scale="0.2 0.2 0.2" rotation="0 98 0"
     ></a-entity>
       
       <!--peguin 3-->
       
   <a-entity id="peguin 3" gltf-model="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/pegquin.glb?v=1678935655019" animation-mixer
-   position="22 0.35 0" scale="0.50 0.50 0.50" rotation="0 98 0"
+   position="22 0.35 0" scale="0.2 0.2 0.2" rotation="0 98 0"
     ></a-entity>
       
-         <!-- bridge-->
+    <!-- sand ground -->
   
- <a-entity gltf-model="#bridge" position="11.04 0 0" rotation="0 90 0" scale="1 0.5 0.51" sq-nonconvexcollider="recursive: true" ></a-entity>
-     
-      <!--sky-->
+ <a-entity gltf-model="#sand ground" position="0 -0.15 -25" scale="4 4 4" sq-nonconvexcollider="recursive: true" ></a-entity>
       
-<a-sky src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/skybox%20(3).jpg?v=1677034427492" ></a-sky>      
+    <!-- bridge 2-->
   
+ <a-entity gltf-model="#bridge" position="0 0 -11.04"  scale="1 0.5 0.51" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+    <!-- pyramid -->
+  
+ <a-entity gltf-model="#pyramid" position="0 -0.15 -25" scale="1 1 1" rotation="0 50 0" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+      <!-- Mummy pug-->
+  
+ <a-entity gltf-model="#mummy pug" position="3 0.30 -20" scale="0.3 0.3 0.3" rotation="0 -94.669 0"  sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+         <!-- Mummy pug 2-->
+  
+ <a-entity gltf-model="#mummy pug" position="-3 0.30 -20" scale="0.3 0.3 0.3" rotation="0 -69.179 0"  sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+      <!-- catcus-->
+  
+ <a-entity gltf-model="#catcus" position="-6 -0.15 -16" scale="0.4 0.4 0.4" rotation="0 -69.179 0"  sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+      <!-- catcus 2-->
+  
+ <a-entity gltf-model="#catcus" position="-8 -0.30 -28" scale="0.4 0.4 0.4" rotation="0 -69.179 0"  sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+    
+      <!-- catcus 3-->
+  
+ <a-entity gltf-model="#catcus" position="8 -0.30 -28" scale="0.4 0.4 0.4" rotation="0 -69.179 0"  sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+      
+        <!-- catcus 4-->
+  
+ <a-entity gltf-model="#catcus" position="8 -0.30 -16" scale="0.4 0.4 0.4" rotation="0 -69.179 0"  sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+              <!-- space portal-->
+  
+ <a-entity gltf-model="#spaceportal" position="-25 -0.15 0" scale="2 0.50 2" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+        <!-- bridge-->
+  
+ <a-entity gltf-model="#bridge" position="-11.04 0 0" rotation="0 90 0" scale="1 0.5 0.51" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+      <!-- sky portal plane. -->
+      
+  <a-plane src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/night%20sky%20moon.png?v=1679884285595"  height="15" rotation="-90 0 0" position="-25 -0.15 0" width="15" sq-nonconvexcollider="recursive: true"></a-plane>
+    
+      
+        <!-- pug ship-->
+  
+ <a-entity gltf-model="#pug-ship" position="-24 1.5 8" rotation="0 90 0" scale="0.4 0.4 0.4" sq-nonconvexcollider="recursive: true" ></a-entity>
+     
+         <!--sphere for space pug-->
+      
+    <a-sphere material="side: double; color: #FFFFFF; transparent: true; opacity: 0.1"  position="-24 1.7 8" radius="0.27"></a-sphere>
+      
+        <!-- bridge 3 to portal hub-->
+  
+ <a-entity gltf-model="#bridge" position="0 0 10.2"  scale="1 0.5 0.3" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+      <!--hub portal-->
+      
+      <a-link position="0 0.1 11" href="https://sq-explore.glitch.me" ></a-link>
+      
+    <!--sky-->
+      
+<a-sky src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/skybox%20(3).jpg?v=1677034427492" ></a-sky>  
+      
+        <!-- thank you board -->
+      
+  <a-plane src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/thank%20you%20board.png?v=1679890687902"  height="1" rotation="0 171.330 0" position="-1.5 2 9" width="1"></a-plane>
+    
+      <!--song from Awakening (Cinematic Inspirational Piano)byMichaelSchullerMusic-->
+      
+        <a-sound src="https://cdn.glitch.global/e6ab1c50-972c-47d5-8b52-3267d7262235/MichaelSchullerMusic%20-%20Awakening%20(Cinematic%20Inspirational%20Piano).mp3?v=1680105699359" autoplay="true" loop="true" position="0 2 5" volume="0.25"></a-sound>
       
     </a-scene>
   </body>
